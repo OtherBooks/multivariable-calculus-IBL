@@ -13,8 +13,7 @@
   </p>
 
   <p>
-    The cake exercise was an example of an optimization problem where we wish to optimize a function (the volume of a box) subject to a constraint (the box has to fit inside a cake). If you are economics student, this section may be the key reason why you were asked to take multivariate calculus. In the business world, we often want to optimize something (profit, revenue, cost, utility, etc.) subject to some constraint (a limited budget, a demand curve, warehouse space, employee hours, etc.). An aerospace engineer will build the best wing that can withstand given forces. Everywhere in the engineering world, we often seek to create the <q>best</q> thing possible, subject to some outside constraints. Lagrange discovered an extremely useful method for answering this question, and today we call it <q>Lagrange Multipliers.</q> EXTRA<fn>See Wikipedia's entry on <url href="https://en.wikipedia.org/wiki/Lagrange_multiplier">Lagrange Multipliers</url> for more background on them.</fn>
-  </p>
+    The cake exercise was an example of an optimization problem where we wish to optimize a function (the volume of a box) subject to a constraint (the box has to fit inside a cake). If you are economics student, this section may be the key reason why you were asked to take multivariate calculus. In the business world, we often want to optimize something (profit, revenue, cost, utility, etc.) subject to some constraint (a limited budget, a demand curve, warehouse space, employee hours, etc.). An aerospace engineer will build the best wing that can withstand given forces. Everywhere in the engineering world, we often seek to create the <q>best</q> thing possible, subject to some outside constraints. Lagrange discovered an extremely useful method for answering this question, and today we call it <q>Lagrange Multipliers.</q> EXTRA<fn>See Wikipedia's entry on <url href="https://en.wikipedia.org/wiki/Lagrange_multiplier">Lagrange Multipliers</url> for more background on them.</fn></p>
 
   <p>
     Rather than introduce Cobb-Douglass production functions (from economics) or sheer-stress calculations (from engineering), we'll work with simple examples that illustrate the key points. Sometimes silly examples carry the message across just as well.
@@ -125,8 +124,7 @@
       See 14.8 for more practice.
       </insight>
 
-      </fn>
-                  Consider the curve <m>xy^2=54</m> (draw it). The distance from each point on this curve to the origin is a function that must have a minimum value. Find a point <m>(a,b)</m> on the curve that is closest to the origin.
+      </fn>Consider the curve <m>xy^2=54</m> (draw it). The distance from each point on this curve to the origin is a function that must have a minimum value. Find a point <m>(a,b)</m> on the curve that is closest to the origin.
     </p>
     <hint>
       <p>
@@ -152,7 +150,7 @@
   <exploration>
     <p>
       Repeat <xref ref="optimize_box_in_cake">exercise</xref>, but this time use Lagrange multipliers.
-                  Find the dimensions of the rectangular box of maximum volume that fits underneath the surface <m>z=f(x,y)=9-x^2-y^2</m> for <m>z\geq 0</m>.
+                        Find the dimensions of the rectangular box of maximum volume that fits underneath the surface <m>z=f(x,y)=9-x^2-y^2</m> for <m>z\geq 0</m>.
     </p>
     <hint>
       <p>
@@ -172,16 +170,16 @@
       <title>Wrap Up</title>
       This concludes the \chaptername .  Look at the objectives at the beginning of the unit . Can you now do all the things you were promised? 
 
-                \instructor{TeX files for these are included in a separate folder in the GitHub Project}
-                \note{Those files should be cleaned up an generalized, i.e. remove specific instructor/course number from them. Possibly also make a master tex file to compile them all}
+                      \instructor{TeX files for these are included in a separate folder in the GitHub Project}
+                      \note{Those files should be cleaned up an generalized, i.e. remove specific instructor/course number from them. Possibly also make a master tex file to compile them all}
 
-                <em>Review Guide Creation</em>
-
-
-                Your assignment: organize what you've learned into a small collection of examples that illustrates the key concepts. I'll call this your unit<nbsp />review guide. I'll provide you with a template which includes the unit's key concepts from the objectives at the beginning. Once you finish your review guide, scan it into a PDF document (use any scanner on campus or photo software) and upload it to Gradescope. \instructor{Gradescope is a cool grading platform! \url{www.gradescope.com} } 
+                      <em>Review Guide Creation</em>
 
 
-                As you create this review guide, consider the following:
+                      Your assignment: organize what you've learned into a small collection of examples that illustrates the key concepts. I'll call this your unit<nbsp />review guide. I'll provide you with a template which includes the unit's key concepts from the objectives at the beginning. Once you finish your review guide, scan it into a PDF document (use any scanner on campus or photo software) and upload it to Gradescope. \instructor{Gradescope is a cool grading platform! \url{www.gradescope.com} } 
+
+
+                      As you create this review guide, consider the following:
       <ul>
         <li>
           <p>

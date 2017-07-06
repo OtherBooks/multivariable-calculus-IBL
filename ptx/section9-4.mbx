@@ -11,8 +11,7 @@
       <ol>
         <li>
           <p>
-            EXTRA<fn><m>\bar s=\frac{\sum \text{ values } }{\text{ number of values } }</m></fn>
-                                     Compute the average by adding 11 numbers together and dividing by the number of scores.  Write down the whole computation before doing any arithmetic.
+            EXTRA<fn><m>\bar s=\frac{\sum \text{ values } }{\text{ number of values } }</m></fn>Compute the average by adding 11 numbers together and dividing by the number of scores.  Write down the whole computation before doing any arithmetic.
           </p>
         </li>
 
@@ -31,7 +30,7 @@
         <li>
           <p>
             EXTRA<fn><m>\text{ (number of values) } \bar s = \sum \text{ values }</m>
-                                     <m>(\sum \text{ weight } )\bar s = \sum (\text{ value } \cdot\text{ weight } )</m></fn>Another way of thinking about the average <m>\bar s</m> is that <m>\bar s</m> is the number so that if all 11 scores were the same value <m>\bar s</m>, you'd have the same sum of scores.  Write this way of thinking about these computations by taking the formulas for <m>\bar s</m> in the first two parts and multiplying both sides by the denominator.
+                                                 <m>(\sum \text{ weight } )\bar s = \sum (\text{ value } \cdot\text{ weight } )</m></fn>Another way of thinking about the average <m>\bar s</m> is that <m>\bar s</m> is the number so that if all 11 scores were the same value <m>\bar s</m>, you'd have the same sum of scores.  Write this way of thinking about these computations by taking the formulas for <m>\bar s</m> in the first two parts and multiplying both sides by the denominator.
           </p>
         </li>
       </ol>
@@ -55,7 +54,7 @@
         <li>
           <p>
             Let <m>f(t) = \begin{cases}10 \amp 0\lt t\lt 1\\20\amp 1\lt t\lt 3
-                                    \end{cases}</m>, the price of the stock for the three-day period. Draw the function <m>f</m>, and find the area under <m>f</m> where <m>t\in[0,3]</m>.
+                                                \end{cases}</m>, the price of the stock for the three-day period. Draw the function <m>f</m>, and find the area under <m>f</m> where <m>t\in[0,3]</m>.
             <hint>
               <p>
                 You can do this without integrals
@@ -100,8 +99,7 @@
 
   <exploration xml:id="Average_Value_intro">
     <p>
-      EXTRA<fn><url href="http://www.youtube.com/watch?v=t7T0MzfgV0Q&amp;list=PL04DF68E73B7ECD54&amp;index=5&amp;feature=plpp_video">Watch a YouTube video.</url></fn>
-                  Consider the elliptical curve <m>C</m> given by the parametrization <m>\vec r(t) = (2\cos t, 3\sin t)</m>. Let <m>f</m> be the function <m>f(x,y)=9-x^2-y^2</m>.
+      EXTRA<fn><url href="http://www.youtube.com/watch?v=t7T0MzfgV0Q&amp;list=PL04DF68E73B7ECD54&amp;index=5&amp;feature=plpp_video">Watch a YouTube video.</url></fn>Consider the elliptical curve <m>C</m> given by the parametrization <m>\vec r(t) = (2\cos t, 3\sin t)</m>. Let <m>f</m> be the function <m>f(x,y)=9-x^2-y^2</m>.
     </p>
     <ol>
     <li>
@@ -125,29 +123,27 @@
 
     <li>
       <p>
-        What's the maximum height and minimum height of the sheet?  EXTRA<fn>See <xref ref="horse_track_chain_rule_introduction">exercise</xref>.</fn>
-      </p>
+        What's the maximum height and minimum height of the sheet?  EXTRA<fn>See <xref ref="horse_track_chain_rule_introduction">exercise</xref>.</fn></p>
     </li>
 
     <li>
       <p>
         We'd like to find a constant height <m>\bar f</m> so that the area under <m>f</m>, above <m>C</m>, is the same as area under <m>\bar f</m>, above <m>C</m>. This height <m>\bar f</m> is called the average value of <m>f</m> along <m>C</m>. 
-                         EXTRA<fn>
+                                 EXTRA<fn>
 
         <insight>
         Please read 
-                        <url href="https://www.lds.org/scriptures/ot/isa/40.4?lang=eng#3">Isaiah 40:4</url> and
-                        <url href="https://www.lds.org/scriptures/nt/luke/3.5?lang=eng#4">Luke 3:5</url>. These scriptures should help you remember how to find average value.
+                                <url href="https://www.lds.org/scriptures/ot/isa/40.4?lang=eng#3">Isaiah 40:4</url> and
+                                <url href="https://www.lds.org/scriptures/nt/luke/3.5?lang=eng#4">Luke 3:5</url>. These scriptures should help you remember how to find average value.
         </insight>
 
         <insight>
         Please read 
-                        <url href="https://www.lds.org/scriptures/ot/isa/40.4?lang=eng#3">Isaiah 40:4</url> and
-                        <url href="https://www.lds.org/scriptures/nt/luke/3.5?lang=eng#4">Luke 3:5</url>. These scriptures should help you remember how to find average value.
+                                <url href="https://www.lds.org/scriptures/ot/isa/40.4?lang=eng#3">Isaiah 40:4</url> and
+                                <url href="https://www.lds.org/scriptures/nt/luke/3.5?lang=eng#4">Luke 3:5</url>. These scriptures should help you remember how to find average value.
         </insight>
 
-        </fn>
-                        Explain why the average value of <m>f</m> along <m>C</m> is
+        </fn>Explain why the average value of <m>f</m> along <m>C</m> is
         <me>
           \bar f = \frac{\int_C f ds}{\int_C ds}.
         </me>

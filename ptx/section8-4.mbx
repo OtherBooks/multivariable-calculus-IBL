@@ -24,16 +24,13 @@
     <review>
 
     <p>
-      Consider the force vector <m>\vec F = (0,-10)</m>, and displacement vector <m>\vec (2,-1)</m>. Compute the projection of <m>\vec F</m> onto <m>\vec d</m>, and then write <m>\vec F</m> as the sum of a vector parallel to <m>\vec d</m> and a vector orthogonal to <m>\vec d</m>. See <fn>
-                  The projection is <m>\proj_{\vec d}\vec F = \frac{10}{5}(2,-1) = (4,-2)</m>.  This is the parallel component <m>\vec F_{|| \text{ to } \vec d} =(4,-2)</m>.  To get the orthogonal component, we know that <m>\vec F = \vec F_{|| \text{ to } \vec d} + \vec F_{\perp \text{ to } \vec d}</m>. Vector subtraction gives
-                  <m>\vec F_{\perp \text{ to } \vec d} = \vec F -\vec F_{|| \text{ to } \vec d} = (0,-10)-(4,-2) = (-4,-8)</m>.
-                  We now write
+      Consider the force vector <m>\vec F = (0,-10)</m>, and displacement vector <m>\vec (2,-1)</m>. Compute the projection of <m>\vec F</m> onto <m>\vec d</m>, and then write <m>\vec F</m> as the sum of a vector parallel to <m>\vec d</m> and a vector orthogonal to <m>\vec d</m>. See<fn>The projection is <m>\proj_{\vec d}\vec F = \frac{10}{5}(2,-1) = (4,-2)</m>.  This is the parallel component <m>\vec F_{|| \text{ to } \vec d} =(4,-2)</m>.  To get the orthogonal component, we know that <m>\vec F = \vec F_{|| \text{ to } \vec d} + \vec F_{\perp \text{ to } \vec d}</m>. Vector subtraction gives
+                        <m>\vec F_{\perp \text{ to } \vec d} = \vec F -\vec F_{|| \text{ to } \vec d} = (0,-10)-(4,-2) = (-4,-8)</m>.
+                        We now write
       <me>
         \vec F = (4,-2) + (-4,-8).
-      </me>
-      </fn>.
-                  EXTRA<fn>This is a good time to look back over the projection section from Unit 1: <xref ref="prob_force_intro"></xref></fn>
-    </p>
+      </me></fn>.
+                        EXTRA<fn>This is a good time to look back over the projection section from Unit 1: <xref ref="prob_force_intro"></xref></fn></p>
 
     </review>
 
@@ -116,7 +113,7 @@
 
     <p>
       In the exercise above, all of the acceleration is in the normal direction. The interesting thing to note is that the normal acceleration is ALWAY <m>a_N =  \frac{|\vec v|^2}{\rho}=\kappa |\vec v|^2</m>. That's what we'll now show.
-                  We'll show that the acceleration of an object moving along a curve <m>\vec r(t)</m> with velocity <m>\vec v(t)</m> is the sum
+                        We'll show that the acceleration of an object moving along a curve <m>\vec r(t)</m> with velocity <m>\vec v(t)</m> is the sum
       <me>
         \vec a(t) = a_T\vec T+a_N\vec N=\frac{d}{dt}|\vec v(t)| \vec T + \kappa |\vec v|^2 \vec N.
       </me>
@@ -124,8 +121,7 @@
 
     <p>
       The scalars <m>a_T=\dfrac{d}{dt}|\vec v(t)|</m> and <m>a_N=\kappa |\vec v|^2</m>
-                  EXTRA<fn>Engineers often use the equivalent formula <m>a_N = \frac{|\vec v|^2}{\rho}</m>, as <m>\rho</m> is a physical distance that they can measure.</fn>
-                  are the tangential and normal components of acceleration. All we have to do is write the vector <m>\vec a(t)</m> as the sum of a vector parallel to <m>\vec T</m> and a vector orthogonal to <m>\vec T</m>.
+                        EXTRA<fn>Engineers often use the equivalent formula <m>a_N = \frac{|\vec v|^2}{\rho}</m>, as <m>\rho</m> is a physical distance that they can measure.</fn>are the tangential and normal components of acceleration. All we have to do is write the vector <m>\vec a(t)</m> as the sum of a vector parallel to <m>\vec T</m> and a vector orthogonal to <m>\vec T</m>.
     </p>
 
     <p>
@@ -170,8 +166,7 @@
 
     <exploration>
       <p>
-        EXTRA<fn>Watch a <url href="http://www.youtube.com/watch?v=cSh2Bdd-yTg&amp;feature=bf_next&amp;list=PL30EE81142B1ED1F0&amp;lf=plpp_video">YouTube Video</url>.  </fn>
-                        Prove that <m>\ds \vec a(t) = a_T\vec T+a_N\vec N=\frac{d}{dt}|\vec v| \vec T + \kappa |\vec v|^2 \vec N.</m> Here's some hints.
+        EXTRA<fn>Watch a <url href="http://www.youtube.com/watch?v=cSh2Bdd-yTg&amp;feature=bf_next&amp;list=PL30EE81142B1ED1F0&amp;lf=plpp_video">YouTube Video</url>.</fn>Prove that <m>\ds \vec a(t) = a_T\vec T+a_N\vec N=\frac{d}{dt}|\vec v| \vec T + \kappa |\vec v|^2 \vec N.</m> Here's some hints.
         <ul>
           <li>
             <p>
@@ -214,7 +209,7 @@
       <hint>
         <p>
           We know that <m>\ds \vec a = a_T\vec T+a_N\vec N=\frac{d}{dt}|\vec v| \vec T + \kappa |\vec v|^2 \vec N.</m>
-                              Cross both sides with <m>\vec v</m>. You should be able to cancel <m>\vec v\times \vec v</m> (why). Then take the magnitude of each side and solve for <m>\kappa</m>. You'll have to explain why <m>|\vec v\times \vec N| = |\vec v|</m>.
+                                        Cross both sides with <m>\vec v</m>. You should be able to cancel <m>\vec v\times \vec v</m> (why). Then take the magnitude of each side and solve for <m>\kappa</m>. You'll have to explain why <m>|\vec v\times \vec N| = |\vec v|</m>.
         </p>
       </hint>
     </exploration>
@@ -231,8 +226,7 @@
 
     <exploration xml:id="formula_for_curvature">
       <p>
-        EXTRA<fn>See 13.4: 5.</fn>
-                        The function <m>y=f(x)</m> can be given the parametrization <m>\vec r(x) = (x,f(x))</m>. Use this parametrization (and the previous exercise) to show that the curvature is
+        EXTRA<fn>See 13.4: 5.</fn>The function <m>y=f(x)</m> can be given the parametrization <m>\vec r(x) = (x,f(x))</m>. Use this parametrization (and the previous exercise) to show that the curvature is
         <me>
           \kappa(x) = \frac{|f''(x)|}{(1+(f')^2)^{3/2}},
         </me>
@@ -259,9 +253,8 @@
       <statement>
         <p>
           Let <m>\vec r(t)</m> be a parametrization of a smooth curve <m>C</m> with unit tangent vector <m>\vec T(t)</m>.
-                              The derivative of <m>\vec B</m> with respect to <m>s</m> tells us how rapidly the plane containing <m>\vec T</m> and <m>\vec N</m> rotates. We'll define the torsion vector to be
-                              EXTRA<fn>Watch a <url href="http://www.youtube.com/watch?v=MVtUc2peJn0&amp;feature=bf_next&amp;list=PL30EE81142B1ED1F0&amp;lf=plpp_video">YouTube Video</url>.  </fn>
-          <me>
+                                        The derivative of <m>\vec B</m> with respect to <m>s</m> tells us how rapidly the plane containing <m>\vec T</m> and <m>\vec N</m> rotates. We'll define the torsion vector to be
+                                        EXTRA<fn>Watch a <url href="http://www.youtube.com/watch?v=MVtUc2peJn0&amp;feature=bf_next&amp;list=PL30EE81142B1ED1F0&amp;lf=plpp_video">YouTube Video</url>.</fn><me>
             \vec \tau = \dfrac{d\vec B}{ds} = \dfrac{d\vec B/dt}{ds/dt}=\dfrac{d\vec B/dt}{|d\vec r/dt|}.
           </me>
         </p>
@@ -283,10 +276,8 @@
     <exploration>
       <title>Optional</title>
       <p>
-        EXTRA<fn>
-                        \thomasee{See 13.4: 9-16 and 13.5: 9-16 (the relevant parts) for more practice.}
-                        \stewarts{TBD?}
-                        </fn>Consider the helix <m>r(t)=(3\cos t, 3\sin t, 4t)</m>. In <xref ref="helix_example_of_T_N_and_B">exercise</xref> we found
+        EXTRA<fn>\thomasee{See 13.4: 9-16 and 13.5: 9-16 (the relevant parts) for more practice.}
+                                \stewarts{TBD?}</fn>Consider the helix <m>r(t)=(3\cos t, 3\sin t, 4t)</m>. In <xref ref="helix_example_of_T_N_and_B">exercise</xref> we found
         <md>
           <mrow>\vec T \amp = (-\frac{3}{5}\sin t,\frac{3}{5}\cos t,\frac{4}{5})</mrow>
           <mrow>\vec N \amp = (-\cos t,-\sin t,0)</mrow>
@@ -313,7 +304,7 @@
     <review>
 
     <p>
-      What is the cross product of <m>(1,2,3)</m> and <m>(2,4,6)</m>? If two vectors are parallel, then what is their cross product? In particular, what is the cross product of <m>\vec N</m> and <m>\vec \kappa</m>? See <fn>The cross product of parallel vectors is always the zero vector <m>(0,0,0)</m>. This is because the area of the parallelogram formed using the parallel vectors is always zero. So all three answers are <m>(0,0,0)</m>.</fn> for an answer.
+      What is the cross product of <m>(1,2,3)</m> and <m>(2,4,6)</m>? If two vectors are parallel, then what is their cross product? In particular, what is the cross product of <m>\vec N</m> and <m>\vec \kappa</m>? See<fn>The cross product of parallel vectors is always the zero vector <m>(0,0,0)</m>. This is because the area of the parallelogram formed using the parallel vectors is always zero. So all three answers are <m>(0,0,0)</m>.</fn>for an answer.
     </p>
 
     </review>
@@ -321,8 +312,7 @@
     <exploration>
       <title>Optional</title>
       <p>
-        EXTRA<fn>Watch a <url href="http://www.youtube.com/watch?v=MVtUc2peJn0&amp;feature=bf_next&amp;list=PL30EE81142B1ED1F0&amp;lf=plpp_video">YouTube Video</url>.  </fn>
-                        Suppose a curve <m>\vec r(t)</m> has the frame <m>\vec T(t)</m>, <m>\vec N(t)</m>, and <m>\vec B(t)</m>. Prove that <m>\dfrac{d\vec B}{ds}</m> is either parallel to <m>\vec N</m>, or points opposite <m>\vec N</m>. Here are some steps.
+        EXTRA<fn>Watch a <url href="http://www.youtube.com/watch?v=MVtUc2peJn0&amp;feature=bf_next&amp;list=PL30EE81142B1ED1F0&amp;lf=plpp_video">YouTube Video</url>.</fn>Suppose a curve <m>\vec r(t)</m> has the frame <m>\vec T(t)</m>, <m>\vec N(t)</m>, and <m>\vec B(t)</m>. Prove that <m>\dfrac{d\vec B}{ds}</m> is either parallel to <m>\vec N</m>, or points opposite <m>\vec N</m>. Here are some steps.
         <ul>
           <li>
             <p>
@@ -361,16 +351,16 @@
         <title>Wrap Up</title>
         This concludes the \chaptername .  Look at the objectives at the beginning of the unit . Can you now do all the things you were promised? 
 
-                      \instructor{TeX files for these are included in a separate folder in the GitHub Project}
-                      \note{Those files should be cleaned up an generalized, i.e. remove specific instructor/course number from them. Possibly also make a master tex file to compile them all}
+                              \instructor{TeX files for these are included in a separate folder in the GitHub Project}
+                              \note{Those files should be cleaned up an generalized, i.e. remove specific instructor/course number from them. Possibly also make a master tex file to compile them all}
 
-                      <em>Review Guide Creation</em>
-
-
-                      Your assignment: organize what you've learned into a small collection of examples that illustrates the key concepts. I'll call this your unit<nbsp />review guide. I'll provide you with a template which includes the unit's key concepts from the objectives at the beginning. Once you finish your review guide, scan it into a PDF document (use any scanner on campus or photo software) and upload it to Gradescope. \instructor{Gradescope is a cool grading platform! \url{www.gradescope.com} } 
+                              <em>Review Guide Creation</em>
 
 
-                      As you create this review guide, consider the following:
+                              Your assignment: organize what you've learned into a small collection of examples that illustrates the key concepts. I'll call this your unit<nbsp />review guide. I'll provide you with a template which includes the unit's key concepts from the objectives at the beginning. Once you finish your review guide, scan it into a PDF document (use any scanner on campus or photo software) and upload it to Gradescope. \instructor{Gradescope is a cool grading platform! \url{www.gradescope.com} } 
+
+
+                              As you create this review guide, consider the following:
         <ul>
           <li>
             <p>
