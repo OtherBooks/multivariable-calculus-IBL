@@ -3,7 +3,16 @@
   <title>Line Integrals</title>
   <introduction>
     <p>
-      This unit covers the following ideas. \valposhort{In preparation for the concept checks and exam, make sure you have a review packet containing examples that explain and illustrate the following concepts.} \bmw{In preparation for the quiz and exam, make sure you have a lesson plan containing examples that explain and illustrate the following concepts.}
+      This unit covers the following ideas.
+
+      <insight>
+        In preparation for the concept checks and exam, make sure you have a review packet containing examples that explain and illustrate the following concepts.
+      </insight>
+
+      <insight>
+        In preparation for the quiz and exam, make sure you have a lesson plan containing examples that explain and illustrate the following concepts.
+      </insight>
+
       <ol>
         <li>
           <p>
@@ -144,7 +153,11 @@
     </p>
 
     <p>
-      \bmw{If you would like homework exercises from the text that line up with the ideas we are studying, please use the following tables.
+
+      <insight>
+        If you would like homework exercises from the text that line up with the ideas we are studying, please use the following tables.
+      </insight>
+
     </p>
     <tabular>
       <row bottom="minor">
@@ -360,8 +373,8 @@
     </tabular>
   </introduction>
   <xi:include  href="section9-1.mbx" />
-  <xi:include  href="section9-2.mbx" />
-  <xi:include  href="section9-3.mbx" />
-  <xi:include  href="section9-4.mbx" />
-  <xi:include  href="section9-5.mbx" />
+      <xi:include  href="section9-2.mbx" />
+      <xi:include  href="section9-3.mbx" />
+      <xi:include  href="section9-4.mbx" />
+      <xi:include  href="section9-5.mbx" />
 </chapter>
